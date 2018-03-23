@@ -4,6 +4,11 @@
 
 個人的なAWS周りで、やってしまったこと（あるある）のメモ
 
+## 2018/03/23
+
+- NAT Instance を作成する場合、`Source/Dest.Check` を無効にする。
+https://docs.aws.amazon.com/ja_jp/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html
+
 ## 2018/03/15
 
 - VPC設定で以下が`Off`になっていると、Private hostnameの名前解決出来なくてハマる。
