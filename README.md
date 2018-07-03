@@ -4,6 +4,11 @@
 
 個人的なAWS周りで、やってしまったこと（あるある）のメモ
 
+## 2018/07/04
+
+- CloudFrontで、ACMで発行した証明書を使用する場合、N.Virginia region で発行した証明書が必要。
+https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/cnames-and-https-requirements.html
+
 ## 2018/03/23
 
 - NAT Instance を作成する場合、`Source/Dest.Check` を無効にする。
