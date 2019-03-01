@@ -4,6 +4,13 @@
 
 AWS周りで、やってしまったこと（あるある）の個人的メモ
 
+## 2018/12/20
+
+- CloudFrontで限定公開する際の、`Signed URLs`, `Signed Cookies` のどちらを選択するか。
+https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/private-content-choosing-signed-urls-cookies.html
+
+HLS の場合、`playlist.m3u8`（プレイリストファイル）に記載されている全体をプライベートコンテンツにする必要がある。=> `Signed Cookies`
+
 ## 2018/11/17
 
 - Amazon SNS テキストメッセージ(SMS)の初期のアカウント使用制限は、$1 なので申請必要。
